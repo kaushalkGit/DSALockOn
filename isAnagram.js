@@ -6,8 +6,8 @@ const isAnagram=function (s,t){
         count[val1]=(count[val1]|| 0)+1;
     }
      for(let val2 of t){
-       if(!count[val2]) return false
-       count[val2]--
+       if(!count[val2]) return false  
+       count[val2]--  //logic is whenever matches, it cuts the key number or use up the number
     }
     return true
 };
