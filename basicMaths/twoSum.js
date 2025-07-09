@@ -9,6 +9,7 @@
 };
 console.log(twoSum([2,7,11,15],9))
 */
+//we have optimized code down below
 var twoSum =function(nums,tar){
     let char={};
     for(let i=0;i<nums.length;i++){
