@@ -1,4 +1,4 @@
-function revStr(s){
+function reverseWords(s){
     let arr=[]
     let brr=[]
     let words;
@@ -12,4 +12,4 @@ function revStr(s){
     }
     return brr.join(" ")
 }
-console.log(revStr("The sky is blue"));
+console.log(reverseWords("The sky is blue"));
